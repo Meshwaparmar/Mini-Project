@@ -21,7 +21,7 @@ public:
     void removeItem(int Qty) {
         if (itemQty >= Qty) {
             itemQty -= Qty;
-            cout << "Removed " << Qty << " items. Total Quantity: " << itemQty << endl;
+            cout << "Removed " << Qty << " items. Total Quantity: " << itemqty << endl;
         } else {
             cout << "Insufficient Quantity. Removal failed." << endl;
         }
@@ -69,7 +69,7 @@ int main() {
     cin >> removeQty;
     item.removeItem(removeQty);
 
-    cout << "Enter new price: ";
+   cout << "Enter new price: ";
     cin >> newPrice;
     item.updatePrice(newPrice);
 
