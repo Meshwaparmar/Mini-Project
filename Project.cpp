@@ -23,7 +23,7 @@ public:
             itemQty -= Qty;
             cout << "Removed " << Qty << " items. Total Qty: " << itemQty << endl;
         } else {
-            cout << "Insufficient Qty. Removal failed." << endl;
+            cout << "Insufficient Quantity. Removal failed." << endl;
         }
     }
  void updatePrice(double price) {
@@ -46,7 +46,7 @@ int main() {
     cout << "Enter item name: ";
     getline(cin, name);
 
-    cout << "Enter initial Qty: ";
+    cout << "Enter initial Qauntity: ";
     cin >> Qty;
 
     cout << "Enter initial price: ";
@@ -61,11 +61,11 @@ int main() {
     int addQty, removeQty;
     double newPrice;
 
-    cout << "Enter Qty to add: ";
+    cout << "Enter Quantity to add: ";
     cin >> addQty;
     item.addItem(addQty);
 
-    cout << "Enter Qty to remove: ";
+    cout << "Enter Quantity to remove: ";
     cin >> removeQty;
     item.removeItem(removeQty);
 
