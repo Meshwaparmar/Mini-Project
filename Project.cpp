@@ -15,13 +15,13 @@ public:
 
     void addItem(int Qty) {
         itemQty += Qty;
-        cout << "Added " << Qty << " items. Total Qty: " << itemQty << endl;
+        cout << "Added " << Qty << " items. Total Quantity: " << itemQty << endl;
     }
 
     void removeItem(int Qty) {
         if (itemQty >= Qty) {
             itemQty -= Qty;
-            cout << "Removed " << Qty << " items. Total Qty: " << itemQty << endl;
+            cout << "Removed " << Qty << " items. Total Quantity: " << itemQty << endl;
         } else {
             cout << "Insufficient Quantity. Removal failed." << endl;
         }
@@ -33,7 +33,7 @@ public:
 
     void displayItem() const {
         cout << "Item: " << itemName << endl;
-        cout << "Qty: " << itemQty << endl;
+        cout << "Quantity: " << itemQty << endl;
         cout << "Price: " << itemPrice << endl;
     }
 };
