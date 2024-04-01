@@ -26,3 +26,28 @@ public:
             cout << "Insufficient quantity. Removal failed." << endl;
         }
     }
+ void updatePrice(double price) {
+        itemPrice = price;
+        cout << "Price updated. New price: " << itemPrice << endl;
+    }
+
+    void displayItem() const {
+        cout << "Item: " << itemName << endl;
+        cout << "Quantity: " << itemQuantity << endl;
+        cout << "Price: " << itemPrice << endl;
+    }
+};
+
+int main() {
+    string name;
+    int quantity;
+    double price;
+
+    cout << "Enter item name: ";
+    getline(cin, name);
+
+    cout << "Enter initial quantity: ";
+    cin >> quantity;
+
+    cout << "Enter initial price: ";
+    cin >> price;
