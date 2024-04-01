@@ -51,3 +51,30 @@ int main() {
 
     cout << "Enter initial price: ";
     cin >> price;
+
+    
+    InventoryItem item(name, quantity, price);
+
+    cout << "Initial inventory item:" << endl;
+    item.displayItem();
+
+    int addQuantity, removeQuantity;
+    double newPrice;
+
+    cout << "Enter quantity to add: ";
+    cin >> addQuantity;
+    item.addItem(addQuantity);
+
+    cout << "Enter quantity to remove: ";
+    cin >> removeQuantity;
+    item.removeItem(removeQuantity);
+
+    cout << "Enter new price: ";
+    cin >> newPrice;
+    item.updatePrice(newPrice);
+
+    cout << "Final inventory item:" << endl;
+    item.displayItem();
+
+    return 0;
+}
