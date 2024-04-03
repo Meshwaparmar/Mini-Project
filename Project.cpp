@@ -46,7 +46,7 @@ int main() {
     cout << "Enter item name: ";
     getline(cin, name);
 
-    cout << "Enter initial Qauntity: ";
+    cout << "Enter initial Quantity: ";
     cin >> Qty;
 
     cout << "Enter initial price: ";
