@@ -7,7 +7,7 @@ class InventoryItem {
 private:
     string itemName;
     int itemQty;
-    double itemPrice;
+    double itemprice;
 
 public:
     InventoryItem(const string& name, int Qty, double price)
