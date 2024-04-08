@@ -77,4 +77,26 @@ int main() {
     item.displayItem();
 
     return 0;
+    
+ int addQty, removeQty;
+    double newPrice;
+
+    cout << "Enter Quantity to add: ";
+    cin >> addQty;
+    item.addItem(addQty);
+
+    cout << "Enter Quantity to remove: ";
+    cin >> removeQty;
+    item.removeItem(removeQty);
+
+   cout << "Enter new price: ";
+    cin >> newPrice;
+    item.updatePrice(newPrice);
+
+    cout << "Final inventory item:" << endl;
+    item.displayItem();
+
+    return 0;
+
+    
 }
