@@ -5,7 +5,7 @@ using namespace std;
 
 class InventoryItem {
 private:
-    string itemName;
+    int itemName;
     int itemQuantity;
     double itemPrice;
 
