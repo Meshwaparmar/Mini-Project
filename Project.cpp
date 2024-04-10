@@ -10,7 +10,7 @@ private:
     double itemPrice;
 
 public:
-    InventoryItem(const string& name, int quantity, double[] price)
+    InventoryItem(const string& name, int quantity, double price)
         : itemName(name), itemQuantity(quantity), itemPrice(price) {}
 
     void addItem(int quantity) {
