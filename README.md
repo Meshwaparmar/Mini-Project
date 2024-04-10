@@ -1,5 +1,5 @@
 This is a inventory management system mini project.
-working of the program:-
+working of the project ⬇️ 
 
 first when the program runs it will ask you to enter your item name,no.of items and initial price of item.
 after this system will ask you to adding no. of item and new price if there is any change otherwise you can enter zero.you can also remove no. of your item if you wish otherwise you can enter zero.
